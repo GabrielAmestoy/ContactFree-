@@ -1,0 +1,142 @@
+.main{
+    background-color: transparent;
+    margin-bottom: 100px;
+}
+
+.main .contenedor-Inicio-Sesion{
+    border:1px solid grey;
+    width: 60%;
+    margin:auto;
+    background-color:transparent;
+    border-radius: 20px;
+    padding: 60px;
+}
+.main .contenedor-Inicio-Sesion:hover{
+    box-shadow: 0px 4px 25px 8px grey;
+    background-color: #fff;
+
+
+}
+.main .contenedor-Inicio-Sesion h4{
+    font-size: 22px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.main .datos-login{
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom:50px;
+    border-left:none;
+    border-top: none;
+    border-right: none;
+    border-bottom:1px solid grey;
+    border-radius: 2px;
+    background-color: transparent;
+    outline: none;
+}
+.main .datos-login:focus{
+    border-bottom:1px solid #0D68F3;
+
+}
+
+.main .btn-iniciar-sesion{
+    width: 100%;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: #0D68F3;
+    color:#fff;
+    border:none;
+}
+.main .btn-iniciar-sesion:hover{
+    background-color: #77a6ec;
+}
+.main .contenedor-Inicio-Sesion p{
+    width: 30%;
+    border-radius: 30px;
+    background-color: green;
+    padding: 10px;
+    margin: 20px auto;
+    text-align: center;
+}
+.main .contenedor-Inicio-Sesion a{
+    color:#fff;
+}
+.main .contenedor-Inicio-Sesion p:hover{
+    background-color: rgb(61, 168, 61);
+
+}
+
+
+/* USUARIO LOGUEADO */
+
+
+header div .contenedor-login-on{
+    height: 100%;
+        /* background-color: aqua; */
+    margin-right: 35px;
+}
+
+ul{
+    margin:auto;/*centra la ul dentro del div .contenedor-login-on*/
+    list-style: none;
+     padding: 0; /*quitar la sangria q hay entre los menu y submenus--> https://www.youtube.com/watch?v=cWvLPy8OBzA */
+}
+
+.contenedor-login-on li{
+    /* width: 100%; */
+    padding: 10px 20px;
+    line-height: 3rem;
+    position: relative;
+
+
+}
+.contenedor-login-on li ul{
+    display: none;
+    position:absolute;
+}
+.contenedor-login-on li:hover ul {
+    display: block;
+    position:absolute;
+}
+
+
+.contenedor-login-on li li{
+    background-color: #1b5a8f;
+}
+#primer-li{
+    margin-top: 15px;
+}
+.menu-inside{
+    right: 40%; /* mueve el submenu a la derecha*/
+    width: 160px;
+}
+.menu-inside:hover{
+    box-shadow: 0px 2px 6px 0px #777;
+    background-color: #526b92;
+    transition:  .3s;
+}
+.fa-user{
+    padding: 5px;
+}
+
+.contenedor-login-on > ul{
+    /* background-color: #333; */
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.contenedor-login-on > ul > li{
+    float: left;
+}
+
+
+
+
+
+
+
+
+
+
+

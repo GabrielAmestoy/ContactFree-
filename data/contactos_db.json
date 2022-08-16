@@ -1,0 +1,31 @@
+[
+    {
+        "Nombre":"Rodrigo",
+        "Apellido":"Gonzales",
+        "Telefono":1145323454,
+        "Email":"RodriGon22@gmail.com",
+        "Direccion":"SantaFe 123",
+        "Trabajo":"Medico",
+        "Fecha-de-Cumpleaños":"12/23/91"
+    },
+    {
+        "Nombre":"Manuel",
+        "Apellido":"Iturbe",
+        "Telefono":1176458978,
+        "Email":"MAnutute3@gmail.com",
+        "Direccion":"De Rico 123",
+        "Trabajo":"Empleado de Comercio",
+        "Fecha-de-Cumpleaños":"03/11/82"
+        
+    },
+    {
+        "Nombre":"Jorge",
+        "Apellido":"Contreras",
+        "Telefono":1186754543,
+        "Email":"JOrContre66@gmail.com",
+        "Direccion":"Av. Ferrari 123",
+        "Trabajo":"Profesor de Matematicas",
+        "Fecha-de-Cumpleaños":"07/14/90"
+
+    }
+]
